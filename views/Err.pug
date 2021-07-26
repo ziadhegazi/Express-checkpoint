@@ -1,0 +1,24 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title Error
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Montserrat:700,900")
+        style 
+            include ./styles/err.css
+    body
+        header  
+            nav 
+                ul.nav-list
+                    li.nav_item 
+                        a(href="./HomePage.pug").link Home Page
+                    li.nav_item
+                        a(href="./OurServices.pug").link Our Services
+                    li.nav_item  
+                        a(href="./ContactUs.pug").link Contact Us
+        div#notfound
+            div.notfound
+                div.notfound-404
+                    h1 404
+                    h2 Come back during working hours (Monday-Friday 9AM-5PM)
+                
